@@ -1,10 +1,10 @@
 import random
 
 operations =['rock','scissor','paper']
-user = input("Enter choice:").lower()
+user = input("Enter choice:").lower()   #user input
 # if(user==user.upper()):
 #     print (user.lower())
-computer_choice= random.choice(operations)
+computer_choice= random.choice(operations)   
 print(computer_choice)
 
 if user not in operations:
